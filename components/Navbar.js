@@ -2,17 +2,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import NavButton from "./NavButton";
+import HamburguerButton from "./HamburgerButton";
 
 export default function Navbar() {
   return (
     <div className ="w-full bg-red-800 p-4 flex justify-between">
-    <div className="relative md:w-16 md:h-16 w-10 h-10 ">
-    <Image src="/vercel.svg" fill></Image>
+    <div className="flex align-center md:relative md:w-16 md:h-16 w-10 h-auto">
+    <Image src="/vercel.svg" width={160} height={160}></Image>
     </div>
      {/* Botones en móvil → menú hamburguesa */}
-    <div className="md:hidden align-center justify-center">
-        <button className="text-white text-3xl px-2 h-full">☰</button>
-    </div>
+    <HamburguerButton/>
 
     <nav className="hidden md:flex gap-4 justify-center flex-grow text-l text-black">
         <NavButton href="/"> Home </NavButton>
