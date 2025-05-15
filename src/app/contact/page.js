@@ -1,8 +1,8 @@
 import React from "react"
-import FAQSection from "../../components/FAQSection"
+import FAQSection from "../../../components/FAQSection"
 
 
-export default function AboutPage() {
+export default function Home() {
   return (
     <div className="mx-2 flex flex-col gap-6 py-6">
       <FAQSection />

@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* aca iria la api de google maps  */}
       <div className="w-full h-64 bg-gray-200 rounded-xl flex items-center justify-center">
-        <span className="text-gray-500">[mapa de Google Maps]</span>
+        <span className="text-gray-500">mapa de Google Maps</span>
         {/* se podria agregar una imagen aca por el momento pero por ahora paja */}
       </div>
     </div>

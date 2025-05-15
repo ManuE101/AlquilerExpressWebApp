@@ -21,12 +21,12 @@ export default function FAQSection() {
 
   return (
     <div className="mt-8 p-4">
-      <h2 className="text-2xl font-semibold mb-4">Preguntas Frecuentes</h2>
+      <h2 className="text-black text-2xl font-semibold mb-4">Preguntas Frecuentes</h2>
       <div className="space-y-4">
 
         {/* esto para loopear dentro del mapa */}
         {faqs.map((faq, index) => (
-          <div key={index} className="border-b border-gray-200 pb-2">
+          <div key={index} className="text-black border-b border-gray-200 pb-2">
 
             <button
               // con el boton cambio el estado de openIdex de null a la respuesta
