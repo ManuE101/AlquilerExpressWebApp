@@ -2,5 +2,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <div>Aca trabaja manuuu!!!</div> )
+  <div>
+
+    <div className="mt-8 p-4 border-t border-gray-300">
+      <h2 className="text-2xl font-semibold text-black mb-2">Sobre Nosotros</h2>
+      <p className="text-gray-700 text-base mb-4">
+        Alquiler Express es una empresa de blablabla Lorem50
+      </p>
+
+      {/* aca iria la api de google maps  */}
+      <div className="w-full h-64 bg-gray-200 rounded-xl flex items-center justify-center">
+        <span className="text-gray-500">[mapa de Google Maps]</span>
+        {/* se podria agregar una imagen aca por el momento pero por ahora paja */}
+      </div>
+    </div>
+
+  </div> )
 }

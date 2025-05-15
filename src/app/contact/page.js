@@ -1,10 +1,11 @@
-import Image from "next/image";
+import React from "react"
+import FAQSection from "../../components/FAQSection"
 
-export default function Home() {
+
+export default function AboutPage() {
   return (
-   <div>Aca trabaja manuuu!!!
-    <div>AGUANTE BOCA</div>
-   </div>
-   
- )
+    <div className="mx-2 flex flex-col gap-6 py-6">
+      <FAQSection />
+    </div>
+  )
 }
