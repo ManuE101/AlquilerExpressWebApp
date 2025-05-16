@@ -9,7 +9,7 @@ const inmuebleRoutes = require('./routes/userRoutes.js');
 
 app.use(cors());
 
-// nose si esto va a quedar asi mientras se agreguen mas cosas pero por ahora va :(
+//nose si esto va a quedar asi mientras se agreguen mas cosas pero por ahora va :(
 app.use('/api/all', inmuebleRoutes);
 
 sequelize.sync({ force: true }) 
